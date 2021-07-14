@@ -4,7 +4,7 @@ services:
 
   mssql:
     container_name: DeliveryKing-MSSQL-Server
-    image: microsoft/mssql-server-linux:2017-latest
+    image: mcr.microsoft.com/mssql/server:2017-latest
     environment:
       - MSSQL_SA_PASSWORD=Pass@word
       - ACCEPT_EULA=Y
